@@ -1,39 +1,58 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "What is the main assumption in the Fast Decoupled power flow (FDPF) method?",
+			"answers": {
+				"a": "Load bus voltage angles are large. ",
+				"b": "Transmission line reactance’s are large compared to resistances. ",
+				"c": "Shunt capacitance effects are neglected. ",
+				"d": "Transformer tap settings are fixed. "
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Which of the following is true for the B’ and B’’ matrix in the FDPF method?",
+			"answers": {
+				"a": "∂Pᵢ/∂Vᵢ ≈ 0 and ∂Qᵢ/∂δᵢ ≈ 0.",
+				"b": "∂Pᵢ/∂δᵢ ≈ 0 and ∂Qᵢ/∂Vᵢ ≈ 0.",
+				"c": "∂Pᵢ/∂Vᵢ ≈ 0 and ∂Qᵢ/∂Vᵢ ≈ 0.",
+				"d": "∂Pᵢ/∂δᵢ ≈ 0 and ∂Qᵢ/∂δᵢ ≈ 0."
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "In the FDPF method if N is the total number of buses, the B'' matrix size is: ",
+			"answers": {
+				"a": "(N-2)×(N-2)",
+				"b": "(N-1)×(N-2)",
+				"c": "(N-1)×(N-1)",
+				"d": "Data is not sufficient."
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "What is the main reason of FDPF to be faster than the NRPF method for a well-balanced system?",
+			"answers": {
+				"a": "It does not require iteration. ",
+				"b": "It avoids the formation and inversion of the Jacobian matrix in each iteration.",
+				"c": "It only calculates real power flow. ",
+				"d": "It does not involve complex number arithmetic."
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "In context of FDPF method which statement is true? ",
+			"answers": {
+				"a": "In normal steady state operating conditions, the voltage magnitudes are approximately equal to 1.0.",
+				"b": "The transmission lines are mostly reactive in nature, the conductances are very small as compared to the susceptance  Gᵢⱼ ≪ Bᵢⱼ .",
+				"c": "For normal steady state operating conditions the angle difference between two buses is very small, i.e., δᵢ - δⱼ ≈ 0 (within 5°-10°). ",
+				"d": "All of the above."
+			},
+			"correctAnswer": "d"
+		}
+	]
 }
+
+
+  
