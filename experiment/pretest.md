@@ -1,0 +1,34 @@
+### Q1. What is the main assumption in the Fast Decoupled power flow (FDPF) method?
+
+a) Load bus voltage angles are large.  
+b) Transmission line reactance’s are large compared to resistances.  
+c) Shunt capacitance effects are neglected.  
+d) Transformer tap settings are fixed.  
+
+### Q2. Which of the following is true for the B’ and B’’ matrix in the FDPF method?
+
+a) ∂Pᵢ/∂Vᵢ ≈ 0 and ∂Qᵢ/∂δᵢ ≈ 0.  
+b) ∂Pᵢ/∂δᵢ ≈ 0 and ∂Qᵢ/∂Vᵢ ≈ 0.  
+c) ∂Pᵢ/∂Vᵢ ≈ 0 and ∂Qᵢ/∂Vᵢ ≈ 0.  
+d) ∂Pᵢ/∂δᵢ ≈ 0 and ∂Qᵢ/∂δᵢ ≈ 0.  
+
+### Q3. In the FDPF method if N is the total number of buses, the B'' matrix size is:
+
+a) (N-2)×(N-2)  
+b) (N-1)×(N-2)  
+c) (N-1)×(N-1)  
+d) Data is not sufficient.  
+
+### Q4. What is the main reason of FDPF to be faster than the NRPF method for a well-balanced system?
+
+a) It does not require iteration.  
+b) It avoids the formation and inversion of the Jacobian matrix in each iteration.  
+c) It only calculates real power flow.  
+d) It does not involve complex number arithmetic.  
+
+### Q5. In context of FDPF method which statement is true?
+
+a) In normal steady state operating conditions, the voltage magnitudes are approximately equal to 1.0.  
+b) The transmission lines are mostly reactive in nature, the conductances are very small as compared to the susceptance  Gᵢⱼ ≪ Bᵢⱼ.  
+c) For normal steady state operating conditions the angle difference between two buses is very small, i.e., δᵢ - δⱼ ≈ 0 (within 5°-10°).  
+d) All of the above.  
