@@ -1,55 +1,52 @@
-{
-	"version": 2.0,
-	"questions": [
-		{
-			"question": "What are the two decoupled matrices in the FDPF?",
-			"answers": {
-				"a": "Y-bus and Z-bus",
-				"b": "P-Q and V-θ",
-				"c": "X and R",
-				"d": "B' and B'' "
-			},
-			"correctAnswer": "d"
+[
+	{
+		"question": "What are the two decoupled matrices in the FDPF?",
+		"answers": {
+			"a": "Y-bus and Z-bus",
+			"b": "P-Q and V-θ",
+			"c": "X and R",
+			"d": "B' and B'' "
 		},
-		{
-			"question": "In the FDPF method, which matrix corresponds primarily to changes in active power? ",
-			"answers": {
-				"a": "Admittance matrix",
-				"b": "B' matrix",
-				"c": "B'' matrix",
-				"d": "Susceptance matrix"
-			},
-			"correctAnswer": "b"
+		"correctAnswer": "d"
+	},
+	{
+		"question": "In the FDPF method, which matrix corresponds primarily to changes in active power? ",
+		"answers": {
+			"a": "Admittance matrix",
+			"b": "B' matrix",
+			"c": "B'' matrix",
+			"d": "Susceptance matrix"
 		},
-		{
-			"question": "In the FDPF method if N is the total number of buses, the B' matrix size is: ",
-			"answers": {
-				"a": "(N-1) × (N-1)",
-				"b": "(N-2) × (N-2)",
-				"c": "(N-1) × (N-2)",
-				"d": "N × (N-2)"
-			},
-			"correctAnswer": "a"
+		"correctAnswer": "b"
+	},
+	{
+		"question": "In the FDPF method if N is the total number of buses, the B' matrix size is: ",
+		"answers": {
+			"a": "(N-1) × (N-1)",
+			"b": "(N-2) × (N-2)",
+			"c": "(N-1) × (N-2)",
+			"d": "N × (N-2)"
 		},
-		{
-			"question": "In the FDPF method, the Jacobian matrix is simplified by assuming that: ",
-			"answers": {
-				"a": "Off-diagonal elements are equal. ",
-				"b": "Diagonal elements are zero.",
-				"c": "Power system is balanced.",
-				"d": "Power system has high X/R ratios."
-			},
-			"correctAnswer": "d"
+		"correctAnswer": "a"
+	},
+	{
+		"question": "In the FDPF method, the Jacobian matrix is simplified by assuming that: ",
+		"answers": {
+			"a": "Off-diagonal elements are equal. ",
+			"b": "Diagonal elements are zero.",
+			"c": "Power system is balanced.",
+			"d": "Power system has high X/R ratios."
 		},
-		{
-			"question": "In the FDPF method, which matrix corresponds primarily to changes in reactive power? ",
-			"answers": {
-				"a": "Admittance matrix",
-				"b": "B' matrix",
-				"c": "B'' matrix",
-				"d": "Susceptance matrix"
-			},
-			"correctAnswer": "c"
-		}
-	]
-}
+		"correctAnswer": "d"
+	},
+	{
+		"question": "In the FDPF method, which matrix corresponds primarily to changes in reactive power? ",
+		"answers": {
+			"a": "Admittance matrix",
+			"b": "B' matrix",
+			"c": "B'' matrix",
+			"d": "Susceptance matrix"
+		},
+		"correctAnswer": "c"
+	}
+]
