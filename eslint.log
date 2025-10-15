@@ -1,0 +1,178 @@
+
+/home/runner/work/exp-powerflow-fast-decoupled-iitr/exp-powerflow-fast-decoupled-iitr/experiment/simulation/script.js
+    3:29  warning  'Y' is assigned a value but never used                  no-unused-vars
+   50:11  warning  'autofillFiveBusNetwork' is defined but never used      no-unused-vars
+   80:10  warning  'autofillFourteenBusNetwork' is defined but never used  no-unused-vars
+  170:10  warning  'autofillSixLines' is defined but never used            no-unused-vars
+  194:10  warning  'autofillTwentyLines' is defined but never used         no-unused-vars
+  241:10  warning  'calculateYbus' is defined but never used               no-unused-vars
+  249:5   warning  'Ybus' is not defined                                   no-undef
+  249:90  warning  'math' is not defined                                   no-undef
+  250:5   warning  'Ybus1' is not defined                                  no-undef
+  250:91  warning  'math' is not defined                                   no-undef
+  260:26  warning  'math' is not defined                                   no-undef
+  260:41  warning  'math' is not defined                                   no-undef
+  261:27  warning  'math' is not defined                                   no-undef
+  261:42  warning  'math' is not defined                                   no-undef
+  262:31  warning  'math' is not defined                                   no-undef
+  265:30  warning  'math' is not defined                                   no-undef
+  266:17  warning  'tapSquare' is assigned a value but never used          no-unused-vars
+  266:29  warning  'math' is not defined                                   no-undef
+  268:13  warning  'Ybus' is not defined                                   no-undef
+  268:30  warning  'math' is not defined                                   no-undef
+  268:44  warning  'Ybus' is not defined                                   no-undef
+  268:60  warning  'math' is not defined                                   no-undef
+  269:13  warning  'Ybus' is not defined                                   no-undef
+  269:30  warning  'Ybus' is not defined                                   no-undef
+  271:13  warning  'Ybus1' is not defined                                  no-undef
+  271:31  warning  'math' is not defined                                   no-undef
+  271:45  warning  'Ybus1' is not defined                                  no-undef
+  271:62  warning  'math' is not defined                                   no-undef
+  272:13  warning  'Ybus1' is not defined                                  no-undef
+  272:31  warning  'Ybus1' is not defined                                  no-undef
+  275:34  warning  'math' is not defined                                   no-undef
+  276:17  warning  'math' is not defined                                   no-undef
+  277:17  warning  'math' is not defined                                   no-undef
+  277:36  warning  'math' is not defined                                   no-undef
+  282:35  warning  'math' is not defined                                   no-undef
+  283:17  warning  'math' is not defined                                   no-undef
+  284:17  warning  'math' is not defined                                   no-undef
+  284:36  warning  'math' is not defined                                   no-undef
+  288:32  warning  'math' is not defined                                   no-undef
+  289:17  warning  'math' is not defined                                   no-undef
+  290:17  warning  'math' is not defined                                   no-undef
+  290:31  warning  'math' is not defined                                   no-undef
+  295:33  warning  'math' is not defined                                   no-undef
+  296:17  warning  'math' is not defined                                   no-undef
+  297:17  warning  'math' is not defined                                   no-undef
+  297:31  warning  'math' is not defined                                   no-undef
+  302:13  warning  'Ybus' is not defined                                   no-undef
+  302:32  warning  'math' is not defined                                   no-undef
+  302:41  warning  'Ybus' is not defined                                   no-undef
+  303:13  warning  'Ybus' is not defined                                   no-undef
+  303:28  warning  'math' is not defined                                   no-undef
+  303:37  warning  'Ybus' is not defined                                   no-undef
+  306:13  warning  'Ybus1' is not defined                                  no-undef
+  306:33  warning  'math' is not defined                                   no-undef
+  306:42  warning  'Ybus1' is not defined                                  no-undef
+  307:13  warning  'Ybus1' is not defined                                  no-undef
+  307:29  warning  'math' is not defined                                   no-undef
+  307:38  warning  'Ybus1' is not defined                                  no-undef
+  312:13  warning  'Ybus' is not defined                                   no-undef
+  312:30  warning  'math' is not defined                                   no-undef
+  312:44  warning  'Ybus' is not defined                                   no-undef
+  313:13  warning  'Ybus' is not defined                                   no-undef
+  313:30  warning  'Ybus' is not defined                                   no-undef
+  315:13  warning  'Ybus' is not defined                                   no-undef
+  315:32  warning  'math' is not defined                                   no-undef
+  315:41  warning  'Ybus' is not defined                                   no-undef
+  316:13  warning  'Ybus' is not defined                                   no-undef
+  316:28  warning  'math' is not defined                                   no-undef
+  316:37  warning  'Ybus' is not defined                                   no-undef
+  321:13  warning  'Ybus1' is not defined                                  no-undef
+  321:31  warning  'math' is not defined                                   no-undef
+  321:45  warning  'Ybus1' is not defined                                  no-undef
+  322:13  warning  'Ybus1' is not defined                                  no-undef
+  322:31  warning  'Ybus1' is not defined                                  no-undef
+  324:13  warning  'Ybus1' is not defined                                  no-undef
+  324:33  warning  'math' is not defined                                   no-undef
+  324:42  warning  'Ybus1' is not defined                                  no-undef
+  325:13  warning  'Ybus1' is not defined                                  no-undef
+  325:29  warning  'math' is not defined                                   no-undef
+  325:38  warning  'Ybus1' is not defined                                  no-undef
+  329:27  warning  'Ybus1' is not defined                                  no-undef
+  337:23  warning  'Ybus' is not defined                                   no-undef
+  341:12  warning  'i' is already defined                                  no-redeclare
+  341:23  warning  'Ybus' is not defined                                   no-undef
+  343:27  warning  'Ybus' is not defined                                   no-undef
+  344:51  warning  'Ybus' is not defined                                   no-undef
+  354:10  warning  'runLoadFlow' is defined but never used                 no-unused-vars
+  364:7   warning  'I' is assigned a value but never used                  no-unused-vars
+  364:36  warning  'math' is not defined                                   no-undef
+  366:7   warning  'convergence' is assigned a value but never used        no-unused-vars
+  367:7   warning  'iterations' is assigned a value but never used         no-unused-vars
+  381:7   warning  'numLines' is assigned a value but never used           no-unused-vars
+  383:17  warning  'type' is assigned a value but never used               no-unused-vars
+  397:17  warning  'Q_sch' is assigned a value but never used              no-unused-vars
+  411:19  warning  'type' is assigned a value but never used               no-unused-vars
+  426:57  warning  'math' is not defined                                   no-undef
+  426:66  warning  'Ybus' is not defined                                   no-undef
+  426:79  warning  'math' is not defined                                   no-undef
+  426:88  warning  'math' is not defined                                   no-undef
+  426:97  warning  'Ybus' is not defined                                   no-undef
+  428:57  warning  'math' is not defined                                   no-undef
+  428:66  warning  'Ybus' is not defined                                   no-undef
+  428:80  warning  'math' is not defined                                   no-undef
+  428:89  warning  'math' is not defined                                   no-undef
+  428:98  warning  'Ybus' is not defined                                   no-undef
+  430:57  warning  'math' is not defined                                   no-undef
+  430:66  warning  'Ybus' is not defined                                   no-undef
+  430:80  warning  'math' is not defined                                   no-undef
+  430:89  warning  'math' is not defined                                   no-undef
+  430:98  warning  'Ybus' is not defined                                   no-undef
+  470:27  warning  'math' is not defined                                   no-undef
+  503:89  warning  'Ybus' is not defined                                   no-undef
+  510:29  warning  'math' is not defined                                   no-undef
+  511:29  warning  'math' is not defined                                   no-undef
+  512:30  warning  'math' is not defined                                   no-undef
+  519:26  warning  'math' is not defined                                   no-undef
+  521:27  warning  'math' is not defined                                   no-undef
+  522:27  warning  'math' is not defined                                   no-undef
+  536:36  warning  'math' is not defined                                   no-undef
+  550:39  warning  'math' is not defined                                   no-undef
+  564:47  warning  'math' is not defined                                   no-undef
+  602:25  warning  'math' is not defined                                   no-undef
+  611:22  warning  'k' is defined but never used                           no-unused-vars
+  612:13  warning  'math' is not defined                                   no-undef
+  614:12  warning  'math' is not defined                                   no-undef
+  614:27  warning  'math' is not defined                                   no-undef
+  615:12  warning  'math' is not defined                                   no-undef
+  631:17  warning  'math' is not defined                                   no-undef
+  632:9   warning  'math' is not defined                                   no-undef
+  632:40  warning  'math' is not defined                                   no-undef
+  633:9   warning  'math' is not defined                                   no-undef
+  633:23  warning  'math' is not defined                                   no-undef
+  633:32  warning  'math' is not defined                                   no-undef
+  637:17  warning  'math' is not defined                                   no-undef
+  640:12  warning  'math' is not defined                                   no-undef
+  640:43  warning  'math' is not defined                                   no-undef
+  640:53  warning  'math' is not defined                                   no-undef
+  646:17  warning  'math' is not defined                                   no-undef
+  647:9   warning  'math' is not defined                                   no-undef
+  648:9   warning  'math' is not defined                                   no-undef
+  652:17  warning  'math' is not defined                                   no-undef
+  653:9   warning  'math' is not defined                                   no-undef
+  653:18  warning  'math' is not defined                                   no-undef
+  653:30  warning  'math' is not defined                                   no-undef
+  653:63  warning  'math' is not defined                                   no-undef
+  657:12  warning  'math' is not defined                                   no-undef
+  657:41  warning  'math' is not defined                                   no-undef
+  657:51  warning  'math' is not defined                                   no-undef
+  662:23  warning  'math' is not defined                                   no-undef
+  663:23  warning  'math' is not defined                                   no-undef
+  664:23  warning  'math' is not defined                                   no-undef
+  665:23  warning  'math' is not defined                                   no-undef
+  672:19  warning  'math' is not defined                                   no-undef
+  672:44  warning  'math' is not defined                                   no-undef
+  673:19  warning  'math' is not defined                                   no-undef
+  673:44  warning  'math' is not defined                                   no-undef
+  691:19  warning  'math' is not defined                                   no-undef
+  711:14  warning  'math' is not defined                                   no-undef
+  712:14  warning  'math' is not defined                                   no-undef
+  713:14  warning  'math' is not defined                                   no-undef
+  714:14  warning  'math' is not defined                                   no-undef
+  720:49  warning  'math' is not defined                                   no-undef
+  720:57  warning  'Ybus1' is not defined                                  no-undef
+  745:47  warning  'math' is not defined                                   no-undef
+  751:25  warning  'math' is not defined                                   no-undef
+  757:25  warning  'math' is not defined                                   no-undef
+  762:25  warning  'math' is not defined                                   no-undef
+  767:25  warning  'math' is not defined                                   no-undef
+  773:18  warning  'math' is not defined                                   no-undef
+  774:21  warning  'math' is not defined                                   no-undef
+  777:13  warning  'math' is not defined                                   no-undef
+  780:9   warning  'J_inv' is assigned a value but never used              no-unused-vars
+  780:17  warning  'math' is not defined                                   no-undef
+
+✖ 173 problems (0 errors, 173 warnings)
+
