@@ -1,6 +1,6 @@
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
-## Procedure for the Fast Decoupled power flow method:
+### Procedure for the Fast Decoupled power flow method:
 <b>STEP 1</b>: Enter the number of buses in a power system. Then, click on the “Generate Bus Table” and fill the details of buses i.e., Bus Type (Slack Bus = 1, PV Bus = 2, PQ Bus = 3), Voltage magnitude (pu), Angle (degree), P<sub>gen</sub> (pu), Q<sub>gen</sub> (pu), P<sub>load</sub> (pu), Q<sub>load</sub> (pu), Q<sub>min</sub> (pu), Q<sub>max</sub> (pu). 
 <br>
 <br>
@@ -18,7 +18,9 @@
 <b>STEP 4</b>: Enter the Tolerance limit value and Maximum allowed iteration. The values for the tolerance limit and the maximum allowed iterations will be set.
 <br>
 <br>
-<b>STEP 5</b>: Click on “Run Power Flow”. The number of iterations, Buses data: Bus Type, Voltage magnitude (pu), Angle (degree) , P<sub>gen</sub> (pu), Q<sub>gen</sub> (pu), Pload<sub>load</sub> (pu), Q<sub>load</sub> (pu), Line flows data: P<sub>line</sub> (pu), Q<sub>line</sub> (pu), P<sub>loss</sub> (pu), Q<sub>loss</sub> (pu), Total real and reactive power losses (pu) after convergence will be displayed.
+<b>STEP 5</b>: Click on “Run Power Flow”. The number of iterations, Buses data: Bus Type, Voltage magnitude (pu), Angle (degree) , P<sub>gen</sub> (pu), Q<sub>gen</sub> (pu), P<sub>load</sub> (pu), Q<sub>load</sub> (pu), Line flows data: P<sub>line</sub> (pu), Q<sub>line</sub> (pu), P<sub>loss</sub> (pu), Q<sub>loss</sub> (pu), Total real and reactive power losses (pu) after convergence will be displayed.
 <br>
-<b>Note:</b> If the power flow does not converge within the maximum allowed iterations, a message will pop up stating, “The power flow analysis did not converge within the maximum allowed iterations”.
+<b>Note1:</b> If the power flow does not converge within the maximum allowed iterations, a message will pop up stating, “The power flow analysis did not converge within the maximum allowed iterations”.
+        <br><br>
+        <b>Note2:</b> The convergence characteristics of the solution can be analyzed by varying the maximum number of iterations and the tolerance limit. Also, the tolerance limit can be increased if the solution does not converge.
 <br>
